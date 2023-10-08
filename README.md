@@ -1,2 +1,2 @@
-# Star-Travel-Toursim
+# Star-Travel-Tourism
 For the 2023 Nasa International Space Apps Challenge by SpaceTeam01 
