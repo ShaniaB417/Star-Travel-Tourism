@@ -1,12 +1,12 @@
 # Star-Travel-Tourism
 For the 2023 Nasa International Space Apps Challenge by SpaceTeam01 
 
-#ABOUT THE CHALLENGE
+ABOUT THE CHALLENGE
 
 In the distant future, space tourism will likely be routine for Earth dwellers, but space travelers will need help choosing a destination and determining an itinerary. Imagine you are a travel agent at a future space tourism office. Your challenge is to create a tool that will not only develop customized itineraries for future travelers who want to visit the main bodies in our solar system—perhaps Mars, Jupiter, or Saturn—but also educate present-day users about the many different objects in our solar system.
 
 
-#High-Level Summary 
+High-Level Summary 
 
 
 In our project we sought to answer the question, “what would space travel look like in the future?” We created an interactive website that showcases the main bodies of our solar system. We wanted the information we presented to be easily understood and shown in a visually appealing way, mimicking a tourism office. We tackled this challenge in three ways in our project. 
@@ -15,7 +15,7 @@ Provided a form to plan a trip for the users of the future
 Provided an in-depth information guide for the users of the present and future! 
 
 
-#Project description 
+Project description 
 
 For the Planetary Tourism Office, we were tasked with creating a tool that will develop customized itineraries for future travelers who want to visit the main bodies in our solar system. As a group, we discussed deciding that a website would be the best way to accomplish this task. 
 The main technology we decided to use was HTML, CSS, and Javascript. We also used Bootstrap in order to create a seamless experience across desktop and mobile devices. 
