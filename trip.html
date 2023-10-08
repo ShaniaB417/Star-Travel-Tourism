@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Space Travel Tourism</title>
+  </head>
+  <body>
+    <div class="conatainer">
+      <div class="nav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="planets.html"> Planets/Destinations </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stations.html">Stations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spacecraft.html">Spacecrafts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trip.html"> Plan Your Trip </a>
+          </li>
+        </ul>
+      </div>
+      <h2> Plan your trip here! </h2>
+      <div class="trip-from">
+        <form id="tripForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="planet">Planet you'd like to visit</label>
+            <select class="form-control" id="planet" required>
+              <option>-Select-</option>
+              <option>Mars</option>
+              <option>Venus</option>
+              <option>Mercury</option>
+              <option>Earth</option>
+              <option>Saturn</option>
+              <option>Jupiter</option>
+              <option>Uranus</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="SpaceCraft">Which SpaceCraft would you like to take?</label>
+            <select class="form-control" id="SpaceCraft" required>
+              <option>-Select-</option>
+              <option>Mariner 10</option>
+              <option>BepiColombo</option>
+              <option>Akatsuki</option>
+              <option>The Parker Solar Probe</option>
+              <option>The Solar Orbiter</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="departureTime">Departure Time</label>
+            <select class="form-control" id="departureTime" required>
+              <option>-Select-</option>
+              <option>6:00 AM</option>
+              <option>12:00 PM</option>
+              <option>6:00 PM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="arrivalTime">Arrival Time</label>
+            <select class="form-control" id="arrivalTime" required>
+              <option>-Select-</option>
+              <option>6:00 AM</option>
+              <option>12:00 PM</option>
+              <option>6:00 PM</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="specialRequests">Any Special Requests?</label>
+            <textarea class="form-control" id="specialRequests" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="attractions">Select Attractions to Visit</label>
+            <select class="form-control" id="attractions" multiple>
+              <option>Mars Rover Exhibit</option>
+              <option>Space Observatory</option>
+              <option>Asteroid Mining Tour</option>
+              <option>Saturn's Rings Experience</option>
+              <option>Zero Gravity Adventure</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-light">Submit</button>
+          </form>
+          <div id="summary" style="display: none;">
+            <h2>Itinerary Summary:</h2>
+            <p><strong>Name:</strong> <span id="summaryName"></span></p>
+            <p><strong>Planet:</strong> <span id="summaryPlanet"></span></p>
+            <p><strong>SpaceCraft:</strong> <span id="summarySpaceCraft"></span></p>
+            <p><strong>Departure Time:</strong> <span id="summaryDepartureTime"></span></p>
+            <p><strong>Arrival Time:</strong> <span id="summaryArrivalTime"></span></p>
+            <p><strong>Special Requests:</strong> <span id="summarySpecialRequests"></span></p>
+            <p><strong>Attractions:</strong> <span id="summaryAttractions"></span></p>
+          </div>
+        </form>
+        
+        <h3> <br> We hope you have a great Trip ! </h3>
+        <p>
+          <br> Here at Star Travel Tourism we hope to add more Facilities, so you and
+          your family can continue to enjoy the wonders of Space. So, Embark on
+          the journey of a lifetime and experience the thrill of space like
+          never before. Book your ticket to the stars today and make your dream
+          of space travel a reality. The cosmos awaits your arrival! 🌠🪐✨
+        </p>
+        <p>Thank you for choosing Star Travel Toursim !</p>
+      </div>
+      <footer>
+        <p>Made by SpaceTeam01</p>
+        <p>Sources we used:</p>
+        <nav class="sourceNav">
+          <li><a href= "https://photojournal.jpl.nasa.gov/"> NASA Photojournal</li>
+          <li><a href = "https://kids.britannica.com/students/article/Grand-Canyon/274620#:~:text=The%20Grand%20Canyon%20in%20northern%20Arizona%20in%20the,the%20canyon%20stand%20imposing%20peaks%2C%20canyons%2C%20and%20ravines"> Solar System</li>
+          <li><a href = "https://www.britannica.com/topic/International-Space-Station"> International Space Station</li>
+        </nav>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+    
+  
+
+  </body>
+</html>

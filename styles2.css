@@ -1,0 +1,119 @@
+.container{  
+    position: relative; 
+}
+
+body {
+    background-color: #f0f0f0; /* Set a light gray background color for the body */
+    font-family: Arial, sans-serif; /* Use a common font family */
+}
+
+.container {
+    padding-top: 20px; /* Add some top padding to the container */
+}
+
+.nav {
+    background-color: #333; /* Set a dark background color for the navigation bar */
+}
+
+
+.stations {
+    background-color: #fff; /* Set a white background for the content area */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the content */
+}
+
+.stations h2 {
+    color:  #ff6600; /* Set a dark text color for headings */
+}
+
+.stations p {
+    color: #555; /* Set a slightly darker text color for paragraphs */
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    clear: both; 
+}
+
+
+footer p {
+    margin: 0; 
+    font-size: 16px; 
+}
+
+
+.sourceNav {
+    list-style-type: none; 
+    padding: 0;
+}
+
+/* Style the list items within the navigation list */
+.sourceNav li {
+    display: inline; 
+    margin-right: 20px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 14px;
+}
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+}
+
+/* Styling for individual planets */
+.planet {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1, h2 { color:  #ff6600;}
+
+img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+   image-rendering: optimizeQuality;
+
+}
+
+figcaption {
+    display: block;
+}
+

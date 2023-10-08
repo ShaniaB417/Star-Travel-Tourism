@@ -1,0 +1,71 @@
+.container{  
+
+    min-height: calc(100vh - 80px); 
+    position: relative;
+   
+}
+
+body {
+    background-image: url(img/mercury.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: white !important;
+    font-size: larger;
+    font-weight: 300;
+ 
+    
+}
+
+
+
+/* Navigation Styles */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the navigation links */
+.nav-link {
+    color: white; /* Set the text color to white */
+    transition: color 0.3s;
+    font-weight: 900;
+    font-size: x-large; /* Smooth color transition on hover */
+}
+
+/* Change the text color on hover */
+.nav-link:hover {
+    color: #ff6600; /* Change the text color to a different color on hover (e.g., orange) */
+}
+
+.sec-1, .MERCURY, .Venus {
+    background-color: rgba(51, 51, 51, 0.7);
+    line-height: normal;
+    
+}
+footer {
+    background-color: rgba(51, 51, 51, 0.7); /* Background color with transparency (adjust the alpha value) */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative ;
+    bottom: 0;
+    width: 100%;
+}
+/* Style the navigation list within the footer */
+.sourceNav {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the list items within the navigation list */
+.sourceNav li {
+    display: inline; 
+    margin-right: 20px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-size: 14px; 
+}
+
+
+
